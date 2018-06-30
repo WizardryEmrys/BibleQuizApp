@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Bible Quiz App</string>
+
+    <!-- Username hint -->
+    <string name="name_hint">Your name here</string>
+
+    <!-- Finish button text -->
+    <string name="finish">Finish</string>
+
+    <!-- This is Question 1 -->
+    <string name="question1">1. What is the name of the first man God created?</string>
+
+    <!-- This is Question 2 -->
+    <string name="question2">2. The Bible contains ............ books.</string>
+
+    <!-- This is Question 3 -->
+    <string name="question3">3. What is the name of the first Book of the Bible?</string>
+
+    <!-- This is Question 4 -->
+    <string name="question4">4. What is the name of the last Book of the Bible?</string>
+
+    <!-- This is Question 5 -->
+    <string name="question5">5. What is the shortest verse in the Bible?</string>
+
+    <!-- This is option 1A -->
+    <string name="option1A">Abraham</string>
+
+    <!-- This is option 1B -->
+    <string name="option1B">Adam</string>
+
+    <!-- This is option 1C -->
+    <string name="option1C">Jesus</string>
+
+    <!-- This is option 1D -->
+    <string name="option1D">Noah</string>
+
+    <!-- This is option 2A -->
+    <string name="option2A">39</string>
+
+    <!-- This is option 2B -->
+    <string name="option2B">27</string>
+
+    <!-- This is option 2C -->
+    <string name="option2C">37</string>
+
+    <!-- This is option 2D -->
+    <string name="option2D">66</string>
+
+    <!-- This is option 3A -->
+    <string name="option3A">Revelation</string>
+
+    <!-- This is option 3B -->
+    <string name="option3B">Genesis</string>
+
+    <!-- This is option 3C -->
+    <string name="option3C">Malachi</string>
+
+    <!-- This is option 3D -->
+    <string name="option3D">Matthew</string>
+
+    <!-- This is option 4A -->
+    <string name="option4A">Revelation</string>
+
+    <!-- This is option 4B -->
+    <string name="option4B">Genesis</string>
+
+    <!-- This is option 4C -->
+    <string name="option4C">Malachi</string>
+
+    <!-- This is option 4D -->
+    <string name="option4D">Matthew</string>
+
+    <!-- This is option 5A -->
+    <string name="option5A">John 10:30</string>
+
+    <!-- This is option 5B -->
+    <string name="option5B">Genesis 1:1</string>
+
+    <!-- This is option 5C -->
+    <string name="option5C">John 1:1</string>
+
+    <!-- This is option 5D -->
+    <string name="option5D">John 11:35</string>
+
+</resources>
