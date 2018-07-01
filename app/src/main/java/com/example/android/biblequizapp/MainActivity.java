@@ -207,4 +207,6 @@ public class MainActivity extends AppCompatActivity {
         // toast message displaying the user score
         Toast.makeText(this, userName + " you had " + totalScore + " correct", Toast.LENGTH_LONG).show();
     }
+
+
 }
