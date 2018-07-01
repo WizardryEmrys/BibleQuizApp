@@ -3,6 +3,7 @@ package com.example.android.biblequizapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -21,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
     public void displayScore(View view) {
 
         int totalScore = 0;
+
+        // store the username in a variable
+        EditText nameField = (EditText) findViewById(R.id.user_name);
+        String userName = nameField.getText().toString();
 
         // Radiobutton 1A
         RadioButton radioButton1A = (RadioButton) findViewById(R.id.opt_1A);
@@ -102,6 +107,45 @@ public class MainActivity extends AppCompatActivity {
         RadioButton radioButton5D = (RadioButton) findViewById(R.id.opt_5D);
         boolean hasChecked5D = radioButton5D.isChecked();
 
+        //CheckBox 6A
+        CheckBox checkBox6A = (CheckBox) findViewById(R.id.opt_6A);
+        boolean hasChecked6A = checkBox6A.isChecked();
+
+        //CheckBox 6B
+        CheckBox checkBox6B = (CheckBox) findViewById(R.id.opt_6B);
+        boolean hasChecked6B = checkBox6B.isChecked();
+
+        //CheckBox 6C
+        CheckBox checkBox6C = (CheckBox) findViewById(R.id.opt_6C);
+        boolean hasChecked6C = checkBox6C.isChecked();
+
+        //CheckBox 6D
+        CheckBox checkBox6D = (CheckBox) findViewById(R.id.opt_6D);
+        boolean hasChecked6D = checkBox6D.isChecked();
+
+        //CheckBox 7A
+        CheckBox checkBox7A = (CheckBox) findViewById(R.id.opt_7A);
+        boolean hasChecked7A = checkBox7A.isChecked();
+
+        //CheckBox 7B
+        CheckBox checkBox7B = (CheckBox) findViewById(R.id.opt_7B);
+        boolean hasChecked7B = checkBox7B.isChecked();
+
+        //CheckBox 7C
+        CheckBox checkBox7C = (CheckBox) findViewById(R.id.opt_7C);
+        boolean hasChecked7C = checkBox7C.isChecked();
+
+        //CheckBox 7D
+        CheckBox checkBox7D = (CheckBox) findViewById(R.id.opt_7D);
+        boolean hasChecked7D = checkBox7D.isChecked();
+
+        EditText answer8 = (EditText) findViewById(R.id.answer_8);
+        String answer8Text = answer8.getText().toString();
+
+        EditText answer9 = (EditText) findViewById(R.id.answer_9);
+        String answer9Text = answer9.getText().toString();
+
+
         if (hasChecked1B) {
             totalScore += 1;
         }
@@ -121,10 +165,25 @@ public class MainActivity extends AppCompatActivity {
         if (hasChecked5D) {
             totalScore += 1;
         }
+        if(hasChecked6A && hasChecked6C){
+            totalScore += 1;
+        }
 
-        // store the username in a variable
-        EditText nameField = (EditText) findViewById(R.id.user_name);
-        String userName = nameField.getText().toString();
+        if(hasChecked7A && hasChecked7B && hasChecked7D){
+            totalScore += 1;
+        }
+
+        String correctAnswer8 = "John";
+        String correctAnswer9 = "David";
+
+        if (answer8Text == correctAnswer8){
+            totalScore += 1;
+        }
+
+        if (answer9Text == correctAnswer9){
+            totalScore += 1;
+        }
+
 
         // toast message displaying the user score
         Toast.makeText(this, userName + " you had " + totalScore + " correct", Toast.LENGTH_LONG).show();

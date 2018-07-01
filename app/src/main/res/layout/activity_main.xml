@@ -223,6 +223,104 @@
 
         </RadioGroup>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/question6"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/opt_6A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option6A"/>
+
+        <CheckBox
+            android:id="@+id/opt_6B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option6B"/>
+
+        <CheckBox
+            android:id="@+id/opt_6C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option6C"/>
+
+        <CheckBox
+            android:id="@+id/opt_6D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option6D"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/question7"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/opt_7A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option7A"/>
+
+        <CheckBox
+            android:id="@+id/opt_7B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option7B"/>
+
+        <CheckBox
+            android:id="@+id/opt_7C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option7C"/>
+
+        <CheckBox
+            android:id="@+id/opt_7D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option7D"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/question8"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/answer_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/answer_here"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/question9"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/answer_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/answer_here"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="24dp"/>
+
         <Button
             android:id="@+id/finish"
             android:layout_width="match_parent"
@@ -233,6 +331,24 @@
             android:textSize="16sp"
             android:textStyle="bold"
             android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/creditsName"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="@string/creditsEmail"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
 
     </LinearLayout>
 
