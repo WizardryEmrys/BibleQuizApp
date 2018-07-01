@@ -140,10 +140,10 @@ public class MainActivity extends AppCompatActivity {
         boolean hasChecked7D = checkBox7D.isChecked();
 
         EditText answer8 = (EditText) findViewById(R.id.answer_8);
-        String answer8Text = answer8.getText().toString();
+        String answer8Text = answer8.getText().toString().toLowerCase();
 
         EditText answer9 = (EditText) findViewById(R.id.answer_9);
-        String answer9Text = answer9.getText().toString();
+        String answer9Text = answer9.getText().toString().toLowerCase();
 
 
         if (hasChecked1B) {
@@ -173,8 +173,8 @@ public class MainActivity extends AppCompatActivity {
             totalScore += 1;
         }
 
-        String correctAnswer8 = "John";
-        String correctAnswer9 = "David";
+        String correctAnswer8 = "john";
+        String correctAnswer9 = "david";
 
         if (answer8Text.equals(correctAnswer8)){
             totalScore += 1;
