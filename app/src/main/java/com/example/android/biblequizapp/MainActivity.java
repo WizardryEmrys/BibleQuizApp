@@ -176,11 +176,11 @@ public class MainActivity extends AppCompatActivity {
         String correctAnswer8 = "John";
         String correctAnswer9 = "David";
 
-        if (answer8Text == correctAnswer8){
+        if (answer8Text.equals(correctAnswer8)){
             totalScore += 1;
         }
 
-        if (answer9Text == correctAnswer9){
+        if (answer9Text.equals(correctAnswer9)){
             totalScore += 1;
         }
 
