@@ -41,6 +41,9 @@
     <!-- This is Question 9 -->
     <string name="question9">9. Who Killed Goliath?</string>
 
+    <!-- This is Question 10 -->
+    <string name="question10">10. Which of the following books were written by Paul, the Apostle</string>
+
 
     <!-- This is option 1A -->
     <string name="option1A">Abraham</string>
@@ -125,5 +128,17 @@
 
     <!-- This is option 7D -->
     <string name="option7D">Simon the Zealot, Bartholomew, Thomas</string>
+
+    <!-- This is option 10A -->
+    <string name="option10A">I and II Corinthians</string>
+
+    <!-- This is option 10B -->
+    <string name="option10B">Colossians and Romans</string>
+
+    <!-- This is option 10C -->
+    <string name="option10C">Philemon and Galatians</string>
+
+    <!-- This is option 10D -->
+    <string name="option10D">I and II Timothy</string>
 
 </resources>

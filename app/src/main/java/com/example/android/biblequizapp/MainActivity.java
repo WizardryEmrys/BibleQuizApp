@@ -145,6 +145,22 @@ public class MainActivity extends AppCompatActivity {
         EditText answer9 = (EditText) findViewById(R.id.answer_9);
         String answer9Text = answer9.getText().toString().toLowerCase();
 
+        //CheckBox 10A
+        CheckBox checkBox10A = (CheckBox) findViewById(R.id.opt_10A);
+        boolean hasChecked10A = checkBox10A.isChecked();
+
+        //CheckBox 10B
+        CheckBox checkBox10B = (CheckBox) findViewById(R.id.opt_10B);
+        boolean hasChecked10B = checkBox10B.isChecked();
+
+        //CheckBox 10C
+        CheckBox checkBox10C = (CheckBox) findViewById(R.id.opt_10C);
+        boolean hasChecked10C = checkBox10C.isChecked();
+
+        //CheckBox 10D
+        CheckBox checkBox10D = (CheckBox) findViewById(R.id.opt_10D);
+        boolean hasChecked10D = checkBox10D.isChecked();
+
 
         if (hasChecked1B) {
             totalScore += 1;
@@ -184,6 +200,9 @@ public class MainActivity extends AppCompatActivity {
             totalScore += 1;
         }
 
+        if(hasChecked10A && hasChecked10B && hasChecked10C && hasChecked10D){
+            totalScore += 1;
+        }
 
         // toast message displaying the user score
         Toast.makeText(this, userName + " you had " + totalScore + " correct", Toast.LENGTH_LONG).show();
